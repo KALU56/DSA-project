@@ -1,0 +1,2 @@
+AddressID|City|Region|Wereda|Subcity
+1|w|ss|qwsd|qws

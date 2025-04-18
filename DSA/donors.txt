@@ -1,0 +1,2 @@
+DonorID|FirstName|LastName|DateOfBirth|Gender|BloodType|AddressID
+1|kal|lal|2003-03-04|female|A+|1

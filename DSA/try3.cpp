@@ -84,11 +84,7 @@ void donor_registration() {
     int address_id = get_last_id("addresses.txt") + 1;
     string city, region, wereda, subcity;
     cout << "\n--- Donor Registration ---\n";
-    cout << "City: "; getline(cin, city);
-    cout << "Region: "; getline(cin, region);
-    cout << "Wereda (optional): "; getline(cin, wereda);
-    cout << "Subcity (optional): "; getline(cin, subcity);
-    addr_file << address_id << "|" << city << "|" << region << "|" << wereda << "|" << subcity << "\n";
+   
 
     // Donor information
     int donor_id = get_last_id("donors.txt") + 1;
@@ -128,7 +124,11 @@ void donor_registration() {
         int phone_id = get_last_id("phones.txt") + 1;
         phone_file << phone_id << "|" << donor_id << "|" << p << "|Mobile\n";
     }
-
+    cout << "City: "; getline(cin, city);
+    cout << "Region: "; getline(cin, region);
+    cout << "Wereda (optional): "; getline(cin, wereda);
+    cout << "Subcity (optional): "; getline(cin, subcity);
+    addr_file << address_id << "|" << city << "|" << region << "|" << wereda << "|" << subcity << "\n";
     cout << "\nRegistration Complete! Your DonorID: " << donor_id << "\n\n";
 }
 

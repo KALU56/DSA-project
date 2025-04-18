@@ -1,0 +1,2 @@
+SupervisorID|Username|PasswordHash
+1|admin|3288171798096025883

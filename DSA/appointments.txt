@@ -1,0 +1,2 @@
+AppointmentID|DonorID|SupervisorID|AppointmentDate|AppointmentTime|Status
+1|1|1|2025-04-03|12:00|Approved
