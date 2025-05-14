@@ -1,5 +1,0 @@
-PhoneID: 1744881963-2
-DonorID: 1744881908-0
-PhoneNumber: 0912345678
-PhoneType: mobli
-
